@@ -1,5 +1,6 @@
 # Air-Quality-in-the-Cloud
-Given the openaq.py to help communicate with the Open AQ API, I built a Flask-powered web application that displays data about air quality. I pulled 100 observations of measurements of fine particulate matter (PM 2.5) in the Los Angeles area (in Chile, not the US) by incorporating specific requests into my application as a function called get_results. 
+School Project:
+Provided with the openaq.py to help communicate with the Open AQ API, I built a Flask-powered web application that displays data about air quality. I pulled 100 observations of measurements of fine particulate matter (PM 2.5) in the Los Angeles area (in Chile, not the US) by incorporating specific requests into my application as a function called get_results. 
 - Imported and set up the API object in my aq_dashboard.py file
 - Retrieved the data from the API when the main ('root') route is called
 - Created a list of (utc_datetime, value) tuples
