@@ -12,5 +12,7 @@ In order store this extracted information into a database, I created a Record mo
 Then revisiting the main route, the database was filtered for any Record objects that have value greater than or equal to 18. Finally, I returned this filtered list of "potentially risky" PM 2.5 datetime/value tuples (converting to string for Flask). The result is a basic dashboard that stores, updates, and displays useful data about the air quality in Los Angeles area. 
 
 End results:
+
 http://127.0.0.1:5000/ for main route,
+
 http://127.0.0.1:5000/refresh to refresh the data with most recent air quality status
