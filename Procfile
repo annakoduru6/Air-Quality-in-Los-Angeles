@@ -1,1 +1,0 @@
-web: gunicorn weather:app -t 120
